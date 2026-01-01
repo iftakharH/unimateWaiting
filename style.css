@@ -363,8 +363,29 @@ body {
 .footer {
     background-color: var(--bg-color);
     padding: 3rem 0;
+    padding: 3rem 0;
     text-align: center;
     color: var(--text-light);
+    position: relative;
+    overflow: hidden;
+    /* Ensures the corner content doesn't create scrollbars if it nudges out */
+}
+
+.purple-tech-branding {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 0.75rem;
+    /* Minimum font size, roughly 12px */
+    font-style: italic;
+    color: #CBD5E1;
+    /* Very light slate, subtle */
+    opacity: 0.8;
+}
+
+.purple-tech-branding:hover {
+    opacity: 1;
+    color: #94A3B8;
 }
 
 .footer h3 {
