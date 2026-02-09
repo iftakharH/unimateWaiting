@@ -380,11 +380,11 @@ body {
     font-style: italic;
     color: #CBD5E1;
     /* Very light slate, subtle */
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .purple-tech-branding:hover {
-    opacity: 1;
+    opacity: 1.2;
     color: #94A3B8;
 }
 
@@ -483,4 +483,5 @@ body {
         opacity: 0;
         transform: translateY(-10px);
     }
+
 }
