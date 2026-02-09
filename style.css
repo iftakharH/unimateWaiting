@@ -378,14 +378,14 @@ body {
     font-size: 0.75rem;
     /* Minimum font size, roughly 12px */
     font-style: italic;
-    color: #CBD5E1;
+    color: var(--primary-color);
     /* Very light slate, subtle */
     opacity: 1;
 }
 
 .purple-tech-branding:hover {
-    opacity: 1.2;
-    color: #94A3B8;
+    opacity: 1.4;
+    color: var(--primary-hover);
 }
 
 .footer h3 {
@@ -485,3 +485,4 @@ body {
     }
 
 }
+
